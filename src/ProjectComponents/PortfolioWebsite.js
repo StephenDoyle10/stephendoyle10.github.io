@@ -16,7 +16,7 @@ class PortfolioWebsite extends React.Component {
             className="projectButton"
             onClick={() =>
               window.open(
-                "https://github.com/StephenDoyle10/stephendoyle10.github.io/portfolio"
+                "https://github.com/StephenDoyle10/stephendoyle10.github.io"
               )
             }
           >
