@@ -19,7 +19,7 @@ class DeployingReact extends React.Component {
         <br/>
         <h3 className="subheading">Deploying React on GitHub Pages</h3>
         <p className="publishedDate">27 Jan 2021</p>
-        <p>Luckily there is a relatively quick and straightforward way to deploy your React project online for free, for the world to see! This is done using GitHub, and more specifically, their GitHub pages feature. There are a number of steps involved in this, which this article goes through. Also, be advised that for this to work you will need:<br/>
+        <p>Luckily there is a fairly straightforward way to deploy your React project online for free, for the world to see! This is done using GitHub, and more specifically, their GitHub pages feature. There are a number of steps involved in this, which this article goes through. Also, be advised that for this to work you will need:<br/>
         1. a GitHub account,<br/>
         2. Node.js installed (check this by typing 'node --version' in the terminal),<br/>
         3. git installed (check this by typing 'git --version' in the terminal)<br/>
@@ -38,16 +38,29 @@ class DeployingReact extends React.Component {
         <h4>Step 5</h4>
         <p>In the same package.json file you will need to add two key/value pairs at the top of the scripts object, like so: "predeploy":"npm run build",
     "deploy":"gh-pages -d build"</p>
+        
+        
         <h4>Step 5</h4>
         <p>Back in terminal (make sure it is in the right folder) type 'git init' and enter.</p>
+        <p><span className="italic">What does this do?</span> 'git init' turns the directory you are in into a git repository.</p>
+        
+
         <h4>Step 6</h4>
         <p>Still in the terminal, back in the browser on the github website, on the page you were redirected to when you created your repository, copy the full line that begins: 'git remote add origin...'. Paste this into the terminal and press enter.</p>
+        <p><span className="italic">What does this do?</span>&nbsp;We have previously initialized the repository (step 5), and we also have a remote repository at GitHub.com. With step 6, we add the remote URL to our local git repository. This stores the remote URL under a more human-friendly name: origin. We will be using 'origin' in a subsequent step.</p>
+
+
         <h4>Step 7</h4>
+        <p>Then type 'npm run deploy' and enter. (You may be asked for your GitHub username and password in the terminal)</p>
+        <p><span className="italic">What does this do?</span> </p>
+        
+        
+        <h4>Step 8</h4>
         <p>In terminal, type 'git add .' and enter.</p>
         <p>Then type 'git commit -m "first deployment" ' and enter. </p>
-
-        <p>Then type 'npm run deploy' and enter. (You may be asked for your GitHub username and password in the terminal)</p>
         <p>Then type 'git push -u origin master' and enter.</p>
+
+
         <h4>Finished!</h4>
         <p>If you go to your repository page now on GitHub, and go to settings, you should see a green box with info telling you where your project has been puclished to online.</p>
 
