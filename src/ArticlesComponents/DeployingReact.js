@@ -42,7 +42,7 @@ class DeployingReact extends React.Component {
         
         <h4>Step 5</h4>
         <p>Back in terminal (make sure it is in the right folder) type 'git init' and enter.</p>
-        <p><span className="italic">What does this do?</span> 'git init' turns the directory you are in into a git repository.</p>
+        <p><span className="italic">What does this do?</span>&nbsp;The git init command creates or initializes a new Git project, or repository. It creates a .git folder with all the tools and data necessary to maintain versions. This command only needs to be used once per project to complete the initial setup.</p>
         
 
         <h4>Step 6</h4>
@@ -52,18 +52,28 @@ class DeployingReact extends React.Component {
 
         <h4>Step 7</h4>
         <p>Then type 'npm run deploy' and enter. (You may be asked for your GitHub username and password in the terminal)</p>
-        <p><span className="italic">What does this do?</span> </p>
+        <p><span className="italic">What does this do?</span> When you run 'npm run deploy', the scripts properties inside the package.json file are checked in order to decide what to do next. The "predeploy" script will run first: "npm run build". This builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified. So after 'npm run build' is performed for the first time, you'll notice that your locally-hosted project now has a build folder, which contains that is not very human-friendly, but it optimized for better performance.</p>
+        <p>After the predeploy script (ie "npm run build") is performed, the deploy script runs. This is "gh-pages -d build"</p>
         
         
         <h4>Step 8</h4>
-        <p>In terminal, type 'git add .' and enter.</p>
-        <p>Then type 'git commit -m "first deployment" ' and enter. </p>
-        <p>Then type 'git push -u origin master' and enter.</p>
+        <p>In terminal, run 'git add .' and enter. This adds files from the working directory to the staging area</p>
+        <p>Then run 'git commit -m "first deployment" '. This permanently stores file changes from the staging area, and into the local repository.</p>
+        <p>Then run 'git push -u origin master'. This uploads local repository content to a remote repository. In this case, the remote repo is hosted on GitHub, but this could be hosted anywhere.</p>
 
 
         <h4>Finished!</h4>
-        <p>If you go to your repository page now on GitHub, and go to settings, you should see a green box with info telling you where your project has been puclished to online.</p>
+        <p>If you go to your repository page now on GitHub, and go to settings, you should see a green box with info telling you where your project has been published online.</p>
 
+        <h2>Making changes and updating your project</h2>
+        <p>So the above steps are how to deploy your lovely new react app to the internet using GitHub. But of course, you'll be making changes to your app over time, and improving it. How should you update your changes?</p>
+        <p>On your GitHub repository for your react project there are two branches, the 'gh-pages' branch, and the 'master' branch. The 'master' branch is the same as the code you write on your IDE on your computer/ The 'gh-pages' branch is where this original code has been bundled for optimal performance in production. Your app is deployed from here.</p>
+        <p>When you make changes to your code in your IDE to the locally stored files, these changes have to be updated to both the master branch and the gh-pages branch on your remote GitHub repository. To update the 'gh-pages' branch, type 'npm run deploy' in the terminal. The 'gh-pages' branch has now updated, and as the deployed app that you see online comes from here, these updates are also reflected in the app as you see it online.</p>
+        <p>HOWEVER, the master branch on GitHub has not been updated. To do this you must type the following three commands into the terminal:</p>
+        <p>git add .</p>
+        <p>git commit -m "commit message"</p>
+        <p>git push -u origin master</p>
+        <p>After following these steps, the updated code as it exists on your computer should be identical to the code on the master branch of your GitHub repo, while on the 'GH-pages' branch there will be a bundled build of these updates, and so your deployed app online will have the nexessary updates.</p>
       
         
 

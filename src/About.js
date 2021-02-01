@@ -26,7 +26,8 @@ class About extends React.Component {
           <br /><br />
           The next challenge was to turn my hand to <span className="bold">full-stack development</span>, and, in particular, to use technologies such as <span className="bold">Node.JS</span>, <span className="bold">Express</span> and <span className="bold">MongoDB</span>. I decided to combine my twin loves of programming and board gaming to build my first full-stack project using these technologies. This was a web app called <a href="https://boarpp.herokuapp.com" className="articleLink" target="_blank" rel="noopener noreferrer">Boarpp</a>: a social media project for baordgamers to share boardgame-related texts, pictures and links, and discuss them with other users.
         </p>
-        <br />   
+        <br /> 
+        <p>Happy with my progress in Node, next I wanted to start building <span className="bold">React</span> projects. After completing an online course my first practical project was to refactor my portfolio website from being a traditional HTML, CSS and JS project into being a React project. I successfully achieved this, and the website you are currently viewing is built with the magic of React! The challenge I am currently working on is to build a MERN stack project - in other words, a full-stack project build with MongoDB, Express, React and Node.</p>  
       </div>
           
         </Col>

@@ -94,6 +94,7 @@ hr {
 .navbarText {
   color: #ac3b61 !important;
   font-size: 14pt;
+  font-family: "Baloo Tamma 2", cursive
 }
 
 .bold, .mediaName {
@@ -115,6 +116,7 @@ hr {
 }
 
 .subheading {
+  padding:25px 0 0 0;
   text-align: center;
 }
 

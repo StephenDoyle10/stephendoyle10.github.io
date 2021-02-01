@@ -12,6 +12,7 @@ import sass from "./images/sass.svg";
 import npm from "./images/npm.svg";
 import node from "./images/nodejs.svg";
 import mongodb from "./images/mongodb.svg";
+import git from "./images/git.svg";
 import react from "./images/react3.svg";
 
 
@@ -38,10 +39,13 @@ class Home extends React.Component {
             <br/>
             <img className="logos2" src={npm} alt="NPM" />
             <br/>
+            <img className="logos2" src={git} alt="Git" />
+            <br/>
             <img className="logos2" src={html} alt="HTML5" />
             <img className="logos2" src={css} alt="CSS3" />
             <img className="logos2" src={javascript} alt="JavaScript" />
             <br/>
+            
             <img className="logos2" src={bootstrap} alt="Bootstrap" />
             <img className="logos2" src={sass} alt="Sass" />
             
