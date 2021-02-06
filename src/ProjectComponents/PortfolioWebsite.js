@@ -26,7 +26,7 @@ class PortfolioWebsite extends React.Component {
         <br />
         <br />
         <p>
-          This is the website you are viewing right now! A static website, I originally created this in the conventional traditional way - with HTML and CSS (with a little help from Bootstrap and Sass). However, after learning React, one of my very first React projects was to refactor this website and build it in React. So the website as you see it now is built in React. This was a great exercise to start thinking of websites in the React way, which is a major paradigm shift from from how we traditionally view building websites. Also, this website gave me important practice in using packages such as react-router and react-bootstrap.
+          This is the website you are viewing right now! A static website, I originally created this in the traditional way - with HTML and CSS (with a little help from Bootstrap and Sass). However, after learning React, one of my very first React projects was to refactor this website and build it in React. So the website as you see it now is built in React. This was a great exercise to start thinking of websites in the React way, which is a major paradigm shift from from how we traditionally view building websites. Also, this website gave me important practice in using packages such as react-router and react-bootstrap.
           <br />
         </p>
         <br />

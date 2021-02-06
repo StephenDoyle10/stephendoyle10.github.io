@@ -18,6 +18,7 @@ class AsyncJSArticle extends React.Component {
         <p><Link as={Link} className="plainP" to="/articles">Articles</Link > > Asynchronus Javascript</p>
         <br/>
         <h3 className="subheading">Asynchronous Javascript</h3>
+        <br/>
         <p className="publishedDate">20 Jan 2021</p>
         <p>Aysynchronous JavaScript touches on a lot of different concepts, such as callback functions, higher order functions, ‘callback hell’, single- vs multi-threaded code, I/O blocking/non-blocking, the Javascript runtime, the event loop, the call stack, task queue, promises, async/await, web apis, and node apis. It can seem overwhelming, however the aim of the following article is to explain all these concepts and show how they all fit together.</p>
         <br />

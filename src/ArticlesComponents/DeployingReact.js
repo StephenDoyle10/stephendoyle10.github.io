@@ -18,6 +18,7 @@ class DeployingReact extends React.Component {
         <p><Link as={Link} className="plainP" to="/articles">Articles</Link > > Deploying React on GitHub Pages</p>
         <br/>
         <h3 className="subheading">Deploying React on GitHub Pages</h3>
+        <br/>
         <p className="publishedDate">27 Jan 2021</p>
         <p>Luckily there is a fairly straightforward way to deploy your React project online for free, for the world to see! This is done using GitHub, and more specifically, their GitHub pages feature. There are a number of steps involved in this, which this article goes through. Also, be advised that for this to work you will need:<br/>
         1. a GitHub account,<br/>

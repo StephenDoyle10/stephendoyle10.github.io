@@ -38,7 +38,7 @@ class Calculator extends React.Component {
           This calculator is my first ever coding project, and I used it
           as a opportunity to put into pratice some CSS ideas picked up
           in the Codecademy CSS course, and to try out integrating
-          JavaScript with html.
+          JavaScript with HTML.
           <br />
         </p>
       </div>

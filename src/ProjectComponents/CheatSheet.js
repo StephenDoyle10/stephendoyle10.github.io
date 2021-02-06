@@ -38,14 +38,14 @@ class CheatSheet extends React.Component {
         <br />
         <br />
         <p>
-          This is my first attempt at writing a html webpage that has
+          This is my first attempt at writing a HTML webpage that has
           javaScript functions. I had just completed the javaScript
           course on freecodecamp, which covered a lot of ground, but did
           not have much on how to integrate JS with HTML, so I had to
           research that myself.
           <br />
           <br />
-          This programme uses html input form fields that takes a users
+          This programme uses HTML input form fields that takes a users
           input and stores it as a JS variable. Then an onclick event
           does something with this variable, and returns a new value on
           the webpage.
