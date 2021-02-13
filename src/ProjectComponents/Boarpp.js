@@ -22,7 +22,7 @@ function Boarpp() {
         <br />
         Bootstrap
         <br />
-        Node
+        Node.js
         <br />
         NPM
         <br />
@@ -80,7 +80,7 @@ function Boarpp() {
       <br />
       <div className="projectText">
         <p>
-          'Boarpp' is a full-stack web app built with Node.JS, Express and
+          'Boarpp' is a full-stack web app built with Node.js, Express and
           MongoDB. It is a blogging service for the board game community, in
           which users can create posts about board games they have played.
           <div

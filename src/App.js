@@ -12,6 +12,7 @@ import DeployingReact from './ArticlesComponents/DeployingReact';
 import Notes from './Notes';
 import AsyncJSArticle from "./ArticlesComponents/AsnycJSArticle";
 import EnginesAndRuntime from "./ArticlesComponents/EnginesAndRuntime";
+import ComponentTypes from "./ArticlesComponents/ComponentTypes";
 import { Route, Switch } from 'react-router-dom';
 
 const App=()=>{
@@ -30,6 +31,7 @@ const App=()=>{
           <Route path="/asyncjsarticle" component={AsyncJSArticle}/>
           <Route path="/deployingreact" component={DeployingReact}/>
           <Route path="/enginesandruntime" component={EnginesAndRuntime}/>
+          <Route path="/componenttypes" component={ComponentTypes}/>
           <Route path="/notes" component={Notes}/>
 
 

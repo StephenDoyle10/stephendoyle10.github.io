@@ -20,7 +20,7 @@ class DeployingReact extends React.Component {
         <h3 className="subheading">Deploying React on GitHub Pages</h3>
         <br/>
         <p className="publishedDate">27 Jan 2021</p>
-        <p>Luckily there is a fairly straightforward way to deploy your React project online for free, for the world to see! This is done using GitHub, and more specifically, their GitHub pages feature. There are a number of steps involved in this, which this article goes through. Also, be advised that for this to work you will need:<br/>
+        <p>Luckily there is a fairly straightforward way to deploy a front-end React project online for free, for the world to see! This is done using GitHub, and more specifically, their GitHub pages feature. There are a number of steps involved in this, which this article goes through. Also, be advised that for this to work you will need:<br/>
         1. a GitHub account,<br/>
         2. Node.js installed (check this by typing 'node --version' in the terminal),<br/>
         3. git installed (check this by typing 'git --version' in the terminal)<br/>
@@ -68,7 +68,7 @@ class DeployingReact extends React.Component {
 
         <h2>Making changes and updating your project</h2>
         <p>So the above steps are how to deploy your lovely new react app to the internet using GitHub. But of course, you'll be making changes to your app over time, and improving it. How should you update your changes?</p>
-        <p>On your GitHub repository for your react project there are two branches, the 'gh-pages' branch, and the 'master' branch. The 'master' branch is the same as the code you write on your IDE on your computer/ The 'gh-pages' branch is where this original code has been bundled for optimal performance in production. Your app is deployed from here.</p>
+        <p>On your GitHub repository for your react project there are two branches, the 'gh-pages' branch, and the 'master' branch. The 'master' branch is the same as the code you write on your IDE on your computer/ The 'gh-pages' branch is where this original code has been bundled, using Webpack, for optimal performance in production. Your app is deployed from here.</p>
         <p>When you make changes to your code in your IDE to the locally stored files, these changes have to be updated to both the master branch and the gh-pages branch on your remote GitHub repository. To update the 'gh-pages' branch, type 'npm run deploy' in the terminal. The 'gh-pages' branch has now updated, and as the deployed app that you see online comes from here, these updates are also reflected in the app as you see it online.</p>
         <p>HOWEVER, the master branch on GitHub has not been updated. To do this you must type the following three commands into the terminal:</p>
         <p>git add .</p>
