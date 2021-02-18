@@ -51,7 +51,7 @@ function SalaryCalc() {
             className="projectButton"
             onClick={() =>
               window.open(
-                "https://stephendoyle10.github.io/uksalarycalculator/"
+                "https://stephendoyle10.github.io/UK-Salary-Calculator/"
               )
             }
           >
@@ -61,7 +61,7 @@ function SalaryCalc() {
             className="projectButton"
             onClick={() =>
               window.open(
-                "https://github.com/StephenDoyle10/uksalarycalculator"
+                "https://github.com/StephenDoyle10/UK-Salary-Calculator/"
               )
             }
           >

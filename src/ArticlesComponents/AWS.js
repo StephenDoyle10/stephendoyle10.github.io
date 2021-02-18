@@ -5,10 +5,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 {/* <p></p> */}
 
-class ArticleTemplate extends React.Component {
+class AWS extends React.Component {
 
   render() {
-    const articleName = "placeholder";
+    const articleName = "Amazon Web Services - core concepts";
     return (
       
         <Container>
@@ -20,7 +20,7 @@ class ArticleTemplate extends React.Component {
               <h3 className="subheading">{articleName}</h3>
               <br/>
               <p className="publishedDate">20 Jan 2021</p>
-              <p>Article text</p>
+              <p>AWS Lambda, EC2, server virtualization, latency</p>
               
               
             </div>
@@ -32,17 +32,6 @@ class ArticleTemplate extends React.Component {
   }
 }
 
-export default ArticleTemplate;
+export default AWS;
 
 
-
-{/* Future ideas:
--Agile
--CICD
--SaaS
--AWS
--Azure
--micro-services
--CORS
--ESLint
-*/}

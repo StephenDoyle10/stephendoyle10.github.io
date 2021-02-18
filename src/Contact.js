@@ -12,7 +12,8 @@ class Contact extends React.Component {
             <div className="bodyContent" id="contact">
               <h2 className="subheading">Contact</h2>
               <br />
-              <p>I can be emailed at: stephen.doyle10@yahoo.co.uk</p>
+              <p>He/him. I can be emailed at:</p>
+              <p>stephen.doyle10@yahoo.co.uk</p>
               <br />
               <p>
                 <a

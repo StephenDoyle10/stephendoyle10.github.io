@@ -9,17 +9,18 @@ class EnginesAndRuntime extends React.Component {
   
 
   render() {
+    const articleName = "Engines and Runtime Environments";
     return (
       
         <Container>
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
             <div className="bodyContent">
-        <p><Link as={Link} className="plainP" to="/articles">Articles</Link > > Engines and Runtime Environments</p>
+        <p><Link as={Link} className="plainP" to="/articles">Articles</Link > > {articleName}</p>
         <br/>
-        <h3 className="subheading">Engines and Runtime Environments</h3>
+        <h3 className="subheading">{articleName}</h3>
         <br/>
-        <p className="publishedDate">20 Jan 2021</p>
+        <p className="publishedDate">05 Feb 2021</p>
         <p>A runtime engine is a program or interpreter that reads code, translates it into machine code, and executes it. It takes human-readable code (ie high level code) such as JavaScript, and converts it to low-level machine code. There are numerous engines for JavaScript. For example, Google Chrome has V8, while Firefox has Spider-Monkey. These engines are a key feature of a runtime environment, which is part of the web browser.</p>
         <p>An engine is necessary to execute JavaScript code, and as JavaScript is the frontend language of web development, this is why every browser has a JavaScript runtime environment (which includes an engine). Google Chrome's JavaScript engine is one of the more popular engines. It is called V8, it is written in C++, and is open source. </p>
         {/* 

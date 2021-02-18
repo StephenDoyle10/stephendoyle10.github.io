@@ -6,18 +6,18 @@ import { Link } from 'react-router-dom';
 
 
 class AsyncJSArticle extends React.Component {
-  
 
   render() {
+    const articleName = "Asynchronous Javascript";
     return (
       
         <Container>
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
             <div className="bodyContent">
-        <p><Link as={Link} className="plainP" to="/articles">Articles</Link > > Asynchronus Javascript</p>
+        <p><Link as={Link} className="plainP" to="/articles">Articles</Link > > {articleName}</p>
         <br/>
-        <h3 className="subheading">Asynchronous Javascript</h3>
+        <h3 className="subheading">{articleName}</h3>
         <br/>
         <p className="publishedDate">20 Jan 2021</p>
         <p>Aysynchronous JavaScript touches on a lot of different concepts, such as callback functions, higher order functions, ‘callback hell’, single- vs multi-threaded code, I/O blocking/non-blocking, the Javascript runtime, the event loop, the call stack, task queue, promises, async/await, web apis, and node apis. It can seem overwhelming, however the aim of the following article is to explain all these concepts and show how they all fit together.</p>

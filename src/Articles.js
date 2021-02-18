@@ -24,7 +24,7 @@ class Articles extends React.Component {
                 <p className="articleTeaserText">The topic of React components touches on a lot of different concepts, such as stateful and stateless components, function components, and class components. Meanwhile, the arrival of Hooks in 2018 changed everything. What do all these things mean, and how do they fit into each other. It can be a bit tricky to understand all these concepts and grasp how they all fit into one another. This article aims to help with that!...[read more]</p>
                 </div>
                 </Link>
-                <Link as={Link} to="/componenttypes">
+                <Link as={Link} to="/enginesandruntime">
                     <div className="articleTeaser" >
                 <h5 >
                 <div className="plainP">Engines and Runtime Environments</div> - <span className="publishedDate">05 Feb 2021</span></h5>

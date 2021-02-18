@@ -46,7 +46,7 @@ class About extends React.Component {
                 were responsive to user inputs. Of course, as is the tried and
                 tested and clichéd path, I built a{" "}
                 <a
-                  href="https://stephendoyle10.github.io/queerculator.github.io/"
+                  href="https://stephendoyle10.github.io/The-Queerculator/"
                   className="articleLink"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -55,7 +55,7 @@ class About extends React.Component {
                 </a>{" "}
                 first! Next came an interactive javaScript string method{" "}
                 <a
-                  href="https://stephendoyle10.github.io/jsstringmethods/"
+                  href="https://stephendoyle10.github.io/JS-String-Methods/"
                   className="articleLink"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -64,7 +64,7 @@ class About extends React.Component {
                 </a>
                 , and then a{" "}
                 <a
-                  href="https://stephendoyle10.github.io/uksalarycalculator/"
+                  href="https://stephendoyle10.github.io/UK-Salary-Calculator/"
                   className="articleLink"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -97,7 +97,7 @@ class About extends React.Component {
                 <br /> <br />
                 Happy with my progress in Node, next I wanted to start building{" "}
                 <span className="bold">React</span> projects. After completing
-                an online course my first practical project was to refactor my
+                an online course, my first practical project was to refactor my
                 portfolio website from being a traditional HTML, CSS and JS
                 project into being a React project. I successfully achieved
                 this, and the website you are currently viewing is built with

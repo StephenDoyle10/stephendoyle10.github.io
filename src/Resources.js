@@ -225,7 +225,17 @@ class Resources extends React.Component {
               </p>
               <br />
               <h4 className="subheading">MERN Stack (ie React and Node.js combined):</h4>
-              
+              <p className="mediaName">
+                <span className="bookTitle">
+                  Pro MERN Stack Full Stack Web App Development with Mongo,
+                  Express, React and Node
+                </span>{" "}
+                by Vasan Subramanian
+              </p>
+              <p>
+                Huge and comprehensive book (500+ pages), this book is my current Bible! Covers a lot of ground
+                and goes into loads of technical detail about a wide range of topics related to the MERN stack, but can be tough for beginners.
+              </p>
               <p className="mediaName">
                 <span className="bookTitle">
                   Modern Full-Stack Development Using TypeScript, React,
@@ -242,18 +252,7 @@ class Resources extends React.Component {
                 how technologies like React, TypeScript, Webpack and Docker came
                 about.
               </p>
-              <p className="mediaName">
-                <span className="bookTitle">
-                  Pro MERN Stack Full Stack Web App Development with Mongo,
-                  Express, React and Node
-                </span>{" "}
-                by Vasan Subramanian
-              </p>
-              <p>
-                Huge and comprehensive book (500+ pages). Covers a lot of ground
-                and goes into a loads of technical detail, but can be dry and
-                difficult for beginners.
-              </p>
+              
               <br />
 
               <h4 className="subheading">GraphQL:</h4>
@@ -300,7 +299,22 @@ class Resources extends React.Component {
                 Innovators is much more gossipy and less technical.
               </p>
               <br />
-              <p />
+              <br />
+              <h3 className="subheading">Entertainment:</h3>
+              <h4 className="subheading">TV:</h4>
+              <p className="mediaName">Silicon Valley (2014-2019) </p>
+              <p>Hilarious sitcom following a tech-start up from humble beginnings to fame and fortune. Full of authentic details about programming and the tech world, it's clear they used consultants that know that world inside out.</p>
+              <br/>
+              <p className="mediaName">Mr Robot (2015-2019)</p>
+              <p>Drama about anti-capitalist hackers, that centres around one particular coding genius. Has been praised, among other things, for its accurate portrayal of hacking methods.</p>
+              <p className="mediaName">Devs (2020)</p>
+              <p>Disturbing Black-Mirror-esque 6-episode miniseries. As the title suggest, this show is about a group of developers working for a sketchy multi-billion dollar tech company. Engrossing show, but due to the far-fetched plot, I doubt many programmers will find much to relate to, as they would in, say, a show like Silicon Valley.</p>
+              <br/>
+              <h4 className="subheading">Movies:</h4>
+              <p className="mediaName">Jobs (2013)</p>
+              <p>Very entertaining biopic about Steve Jobs, that centres on three key periods in his life, and in particular around some of his historic presentations. I don't know how accurate this is regarding characterisations of Steve Jobs and other key Apple players, but it is very watchable and fast-paced, and touches on a lot of techical details about Apple that will keep programmers particularly enthralled.</p>
+
+              
               <br />
             </div>
           </Col>

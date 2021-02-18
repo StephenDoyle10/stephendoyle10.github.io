@@ -18,7 +18,7 @@ class CheatSheet extends React.Component {
             className="projectButton"
             onClick={() =>
               window.open(
-                "https://stephendoyle10.github.io/jsstringmethods/"
+                "https://stephendoyle10.github.io/JS-String-Methods/"
               )
             }
           >
@@ -28,7 +28,7 @@ class CheatSheet extends React.Component {
             className="projectButton"
             onClick={() =>
               window.open(
-                "https://github.com/StephenDoyle10/jsstringmethods"
+                "https://github.com/StephenDoyle10/JS-String-Methods/"
               )
             }
           >

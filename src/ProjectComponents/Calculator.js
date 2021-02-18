@@ -15,7 +15,7 @@ class Calculator extends React.Component {
             className="projectButton"
             onClick={() =>
               window.open(
-                "https://stephendoyle10.github.io/queerculator.github.io/"
+                "https://stephendoyle10.github.io/The-Queerculator/"
               )
             }
           >
@@ -25,7 +25,7 @@ class Calculator extends React.Component {
             className="projectButton"
             onClick={() =>
               window.open(
-                "https://github.com/StephenDoyle10/queerculator.github.io"
+                "https://github.com/StephenDoyle10/The-Queerculator/"
               )
             }
           >
