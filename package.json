@@ -1,4 +1,5 @@
-{ "homepage":"https://stephendoyle10.github.io",
+{
+  "homepage": "https://stephendoyle10.github.io",
   "name": "project_name",
   "version": "0.1.0",
   "private": true,
