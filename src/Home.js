@@ -45,6 +45,11 @@ class Home extends React.Component {
 
               <img className="logos2" src={bootstrap} alt="Bootstrap" />
               <img className="logos2" src={sass} alt="Sass" />
+              {/* coming soon:
+              -aws
+              -mocha
+              -graphql
+              */}
             </div>
           </Col>
         </Row>
