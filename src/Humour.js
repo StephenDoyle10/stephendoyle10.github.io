@@ -1,0 +1,41 @@
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col } from "react-bootstrap";
+import meme1 from "./images/memes/MachineLearning.jpeg";
+
+class Contact extends React.Component {
+  render() {
+    return (
+      <Container>
+        <Row>
+          <Col md={{ span: 8, offset: 2 }}>
+            <div className="bodyContent" id="contact">
+              <h2 className="subheading">Humour</h2>
+              <br />
+              <p>Everyone knows the main reason to get into programming is for the memes. Here are some of my favourites. I did not create ANY of them, and unfortuantely due to the nature of memes it is difficult to find who the original creator of each meme is. However, under each meme, I do link to the source where I first found it, although that source may not be the original creator. Anyway, enjoy!</p>
+              
+              <br />
+              <br/>
+              <img className="memes" src={meme1} alt="Machine Learning meme" />
+              <div className="sourceContainer">
+                <a
+                  className="articleLink"
+                  href="https://twitter.com/mytrashcode/status/1362854479566168067"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                  Source
+                </a>
+              </div>
+              <br/>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
+export default Contact;

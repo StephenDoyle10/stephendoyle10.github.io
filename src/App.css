@@ -23,10 +23,15 @@ a, a:hover{
 
 .articleLink {
   color: #ac3b61;
-  text-decoration: underline;
   cursor: pointer;
   font-size: 16px;
 }
+.sourceContainer{
+  width:100%;
+  text-align: center;
+
+}
+
 
 .bodyContent {
   margin-top: 125px;
@@ -36,7 +41,7 @@ a, a:hover{
   font-style: italic;
 }
 
-p, blockquote, {
+p, blockquote {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
@@ -151,7 +156,7 @@ hr {
 
 .projectButton {
   margin: 3px 3px 3px 3px;
-  padding: 5px 20px 0 20px;
+  padding: 3px 20px 3px 20px;
   color: white;
   border: none;
   font-size: 16px;
@@ -162,6 +167,11 @@ hr {
 
 .projectLink {
   color: #edc7b7;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
 .images {
@@ -183,6 +193,12 @@ hr {
 
 }
 
+.memes{
+  width:100%;
+  margin:10px auto 20px;
+  display:block;
+}
+
 .projectButtons {
   text-align: center;
 }
@@ -195,5 +211,12 @@ hr {
   display: none;
 }
 
+@media (min-width: 990px) {
+  .memes{
+    width:75%;
+    margin:10px auto 20px;
+    display:block;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

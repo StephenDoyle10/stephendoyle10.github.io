@@ -15,7 +15,7 @@ class ArticleTemplate extends React.Component {
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
             <div className="bodyContent">
-              <p><Link as={Link} className="plainP" to="/articles">Articles</Link > &gt; {articleName}</p>
+              <p><Link as={Link} className="plainP" to="/articles">Blogpost</Link > &gt; {articleName}</p>
               <br/>
               <h3 className="subheading">{articleName}</h3>
               <br/>
@@ -37,7 +37,7 @@ export default ArticleTemplate;
 
 
 {/* Future ideas:
--Agile
+-Agile (Scrum, XP, Kanban, Lean)
 -CICD
 -SaaS
 -AWS
@@ -45,4 +45,6 @@ export default ArticleTemplate;
 -micro-services
 -CORS
 -ESLint
+-Webpack (helpers/ loaders), Browserify, Grunt and Gulp.
+- testing - unit testing, tdd, integration testing, end to end testing, headless browser, Cypress, Jasmine, Mocha, chai, jest 
 */}

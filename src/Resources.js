@@ -303,10 +303,14 @@ class Resources extends React.Component {
               <h3 className="subheading">Entertainment:</h3>
               <h4 className="subheading">TV:</h4>
               <p className="mediaName">Silicon Valley (2014-2019) </p>
-              <p>Hilarious sitcom following a tech-start up from humble beginnings to fame and fortune. Full of authentic details about programming and the tech world, it's clear they used consultants that know that world inside out.</p>
+              <p>Hilarious sitcom following a tech-start up from humble beginnings to fame and fortune. Full of authentic details about programming, the tech world, and office politics, it's clear they used consultants that know that world inside out. </p>
+              <br/>
+              <p className="mediaName">Halt and Catch Fire (2014-2017)</p>
+              <p>Imagine Mad Men was set in the 1980s+, instead of the 1960s+, and imagine that instead of being about advertising companies, it instead focused on tech companies trying to make it rich from the PC and internet booms of the 1980s and 1990s. Well, that's Halt and Catch Fire in a nutshell!</p>
               <br/>
               <p className="mediaName">Mr Robot (2015-2019)</p>
               <p>Drama about anti-capitalist hackers, that centres around one particular coding genius. Has been praised, among other things, for its accurate portrayal of hacking methods.</p>
+              <br/>
               <p className="mediaName">Devs (2020)</p>
               <p>Disturbing Black-Mirror-esque 6-episode miniseries. As the title suggest, this show is about a group of developers working for a sketchy multi-billion dollar tech company. Engrossing show, but due to the far-fetched plot, I doubt many programmers will find much to relate to, as they would in, say, a show like Silicon Valley.</p>
               <br/>

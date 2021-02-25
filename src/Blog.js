@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {Link } from 'react-router-dom';
 
 
-class Articles extends React.Component {
+class Blog extends React.Component {
   
 
   render() {
@@ -14,7 +14,7 @@ class Articles extends React.Component {
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
             <div className="bodyContent">
-                <h2 className="subheading">Articles</h2>
+                <h2 className="subheading">Blog</h2>
                 <br/>
                 <Link as={Link} to="/ComponentTypes">
                     <div className="articleTeaser" >
@@ -60,4 +60,4 @@ class Articles extends React.Component {
   }
 }
 
-export default Articles;
+export default Blog;

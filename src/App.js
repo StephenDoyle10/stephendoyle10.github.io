@@ -5,8 +5,9 @@ import Home from './Home';
 import NavBar from './NavBar';
 import About from './About';
 import Projects from './Projects';
-import Articles from './Articles';
+import Blog from './Blog';
 import Resources from './Resources';
+import Humour from './Humour';
 import Contact from './Contact';
 import DeployingReact from './ArticlesComponents/DeployingReact';
 import Notes from './Notes';
@@ -25,7 +26,8 @@ const App=()=>{
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
-          <Route path="/articles" component={Articles} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/humour" component={Humour} />
           <Route path="/resources" component={Resources} />
           <Route path="/contact" component={Contact} />
           <Route path="/asyncjsarticle" component={AsyncJSArticle}/>

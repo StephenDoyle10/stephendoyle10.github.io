@@ -13,6 +13,34 @@ class About extends React.Component {
               <h2 className="subheading">About</h2>
               <br />
               <br />
+              <h3>In brief:</h3>
+              Here are all the technologies that I have hands-on practical experience with, starting with the most important:
+              <ul>
+              <li>{'\u2022'} JavaScript</li>
+              <li>{'\u2022'} MERN Stack</li>
+              <li>{'\u2022'} React</li>
+              <li>{'\u2022'} Nodejs</li>
+              <li>{'\u2022'} MongoDB</li>
+              <li>{'\u2022'} Express</li>
+              <li>{'\u2022'} NPM</li>
+              <li>{'\u2022'} TypeScript</li>
+              <li>{'\u2022'} AWS</li>
+              <li>{'\u2022'} HTML</li>
+              <li>{'\u2022'} CSS</li>
+              <li>{'\u2022'} SASS</li>
+              <li>{'\u2022'} Bootstrap</li>
+              <li>{'\u2022'} Testing with Mocha</li>
+              <li>{'\u2022'} RESTful APIs</li>
+              <li>{'\u2022'} GraphQL</li>
+              <li>{'\u2022'} Git and GitHub</li>
+              <li>{'\u2022'} Babel</li>
+              <li>{'\u2022'} Webpack</li>
+              <li>{'\u2022'} ESLINT</li>
+              
+              </ul>
+              <br/>
+              <br/>
+              <h3>In detail:</h3>
               <p className="quote">'Problems are opportunities in disguise'</p>
               <br />
               <p>
