@@ -3,25 +3,24 @@ import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import Gist from "react-gist";
+{/* <p></p> */}
 
-
-class ArticleTemplate extends React.Component {
+class Destructuring extends React.Component {
 
   render() {
-    const articleName = "placeholder";
+    const articleName = "Rest and Spread Operators, Destructuring";
     return (
       
         <Container>
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
             <div className="bodyContent">
-              <p><Link as={Link} className="plainP" to="/blog">Blogpost</Link > &gt; {articleName}</p>
+              <p><Link as={Link} className="plainP" to="/articles">Blogpost</Link > &gt; {articleName}</p>
               <br/>
               <h3 className="subheading">{articleName}</h3>
               <br/>
               <p className="publishedDate">20 Jan 2021</p>
-              <p>Article text</p>
+              <p>Working through MERN sstack tutorials, I noticed that ES6 concepts like destructuring, and rest and spread operators were being used liberally. At first this was confusing to me, as I hadn't had too much experience in these concepts. I decided to make this post and show examples of how they were most frequently used.</p>
               
               
             </div>
@@ -33,19 +32,5 @@ class ArticleTemplate extends React.Component {
   }
 }
 
-export default ArticleTemplate;
+export default Destructuring;
 
-
-
-{/* Future ideas:
--Agile (Scrum, XP, Kanban, Lean)
--CICD
--SaaS
--AWS
--Azure
--micro-services
--CORS
--ESLint
--Webpack (helpers/ loaders), Browserify, Grunt and Gulp.
-- testing - unit testing, tdd, integration testing, end to end testing, headless browser, Cypress, Jasmine, Mocha, chai, jest 
-*/}

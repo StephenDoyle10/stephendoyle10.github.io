@@ -16,7 +16,7 @@ class EnginesAndRuntime extends React.Component {
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
             <div className="bodyContent">
-        <p><Link as={Link} className="plainP" to="/articles">Blogpost</Link > &gt; {articleName}</p>
+        <p><Link as={Link} className="plainP" to="/blog">Blogpost</Link > &gt; {articleName}</p>
         <br/>
         <h3 className="subheading">{articleName}</h3>
         <br/>

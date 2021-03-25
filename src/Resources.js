@@ -202,6 +202,7 @@ class Resources extends React.Component {
               </p>
               <br/>
               <h4 className="subheading">Node.js:</h4>
+              <br/>
               <p className="mediaName">
                 <span className="bookTitle">
                   Beginning Node.js, Express and MongoDB Development
@@ -214,6 +215,7 @@ class Resources extends React.Component {
                 beginning to deployment on heroku. Very concise, well explained
                 and easy to follow.
               </p>
+              <br/>
               <p className="mediaName">
                 <span className="bookTitle">Get Programming with Node.js</span>{" "}
                 by Jonathan Wexler
@@ -225,6 +227,7 @@ class Resources extends React.Component {
               </p>
               <br />
               <h4 className="subheading">MERN Stack (ie React and Node.js combined):</h4>
+              <br/>
               <p className="mediaName">
                 <span className="bookTitle">
                   Pro MERN Stack Full Stack Web App Development with Mongo,
@@ -233,9 +236,10 @@ class Resources extends React.Component {
                 by Vasan Subramanian
               </p>
               <p>
-                Huge and comprehensive book (500+ pages), this book is my current Bible! Covers a lot of ground
+                Huge and comprehensive book (500+ pages), this book is my MERN Bible. Covers a lot of ground
                 and goes into loads of technical detail about a wide range of topics related to the MERN stack, but can be tough for beginners.
               </p>
+              <br/>
               <p className="mediaName">
                 <span className="bookTitle">
                   Modern Full-Stack Development Using TypeScript, React,
@@ -256,6 +260,7 @@ class Resources extends React.Component {
               <br />
 
               <h4 className="subheading">GraphQL:</h4>
+              <br/>
               <p className="mediaName">
                 <span className="bookTitle">
                   Learning GraphQL: Declarative Data Fetching for Modern Web
@@ -268,12 +273,13 @@ class Resources extends React.Component {
                 detailed, perfect for beginners.
               </p>
               <br />
-              <h4 className="subheading">Biography/ general:</h4>
+              <h4 className="subheading">Biography/ history:</h4>
+              <br/>
               <p className="mediaName">
                 <span className="bookTitle">
                   Code: The Hidden Language of Computer Hardware and Software
                 </span>{" "}
-                by Charles Petzold
+                by Charles Petzold (First published 1999)
               </p>
               <p>
                 Author Charles Petzold has an amazing ability to make difficult
@@ -282,9 +288,10 @@ class Resources extends React.Component {
                 telegraphs and relays helped pave the way for the modern
                 computer.
               </p>
+              <br/>
               <p className="mediaName">
-                <span className="bookTitle">The Innovators</span> by Walter
-                Isaacson
+                <span className="bookTitle">The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution</span> by Walter
+                Isaacson (First published 2014)
               </p>
               <p>
                 Extremely entertaining and unputdownable book focusing on all
@@ -297,6 +304,20 @@ class Resources extends React.Component {
                 games, the home computer etc. It covers much of the same ground
                 as another book in this list - Code by Charles Petzold - but the
                 Innovators is much more gossipy and less technical.
+              </p>
+              <br/>
+              <p className="mediaName">
+                <span className="bookTitle">Showstopper! The Breakneck Race to Create Windows NT and the Next Generation at Microsoft</span> by G. Pascal Zachary (First published 1994)
+              </p>
+              <p>
+                This is a very specialist book that chronicles the creation of the first Windows NT operating system in the late 1980s and early 1990s. Despite the author's best attempts to make this a riveting tale, I would say this is really only for people with an interest in the very specific subject matter.
+              </p>
+              <br/>
+              <p className="mediaName">
+                <span className="bookTitle">The New New Thing: A Silicon Valley Story</span> by Michael Lewis (First published 1999)
+              </p>
+              <p>
+                Michael Lewis is known for his entertaining and idiosyncratic takes on different subjects, that often get adapted into films - for example, Moneyball, the Blind Side, and the Big Short. This is his take on Silicon Valley, and in particular the author gets access to eccentric tech innovator and billionaire James Clark, who becomes the main focus of this book.
               </p>
               <br />
               <br />

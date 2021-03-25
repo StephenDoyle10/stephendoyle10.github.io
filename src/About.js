@@ -14,7 +14,9 @@ class About extends React.Component {
               <br />
               <br />
               <h3>In brief:</h3>
-              Here are all the technologies that I have hands-on practical experience with, starting with the most important:
+              Here are all the technologies that I have hands-on practical experience with:
+              <br/>
+              <br/>
               <ul>
               <li>{'\u2022'} JavaScript</li>
               <li>{'\u2022'} MERN Stack</li>
@@ -41,6 +43,7 @@ class About extends React.Component {
               <br/>
               <br/>
               <h3>In detail:</h3>
+              <br/>
               <p className="quote">'Problems are opportunities in disguise'</p>
               <br />
               <p>
