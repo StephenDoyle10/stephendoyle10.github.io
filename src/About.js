@@ -34,7 +34,8 @@ class About extends React.Component {
               <li>{'\u2022'} Testing with Mocha</li>
               <li>{'\u2022'} RESTful APIs</li>
               <li>{'\u2022'} GraphQL</li>
-              <li>{'\u2022'} Git and GitHub</li>
+              <li>{'\u2022'} Git</li>
+              <li>{'\u2022'} GitHub</li>
               <li>{'\u2022'} Babel</li>
               <li>{'\u2022'} Webpack</li>
               <li>{'\u2022'} ESLINT</li>
@@ -55,6 +56,7 @@ class About extends React.Component {
                 had always captivated me: programming.
                 <br />
                 <br />
+                <h5>HTML, CSS and JS</h5>
                 Although my previous work experience has been in recruitment,
                 and in teaching English as a foreign language, I knew there were
                 a lot of successful self-taught programmers out there. Like a
@@ -105,6 +107,7 @@ class About extends React.Component {
                 .
                 <br />
                 <br />
+                <h5>Node.js, Express.js and MongoDB</h5>
                 The next challenge was to turn my hand to{" "}
                 <span className="bold">full-stack development</span>, and, in
                 particular, to use technologies such as{" "}
@@ -126,16 +129,26 @@ class About extends React.Component {
                 boardgame-related texts, pictures and links, and discuss them
                 with other users.
                 <br /> <br />
+                <h5>React</h5>
                 Happy with my progress in Node, next I wanted to start building{" "}
-                <span className="bold">React</span> projects. After completing
-                an online course, my first practical project was to refactor my
+                <span className="bold">React</span> projects. My first practical project was to refactor my
                 portfolio website from being a traditional HTML, CSS and JS
                 project into being a React project. I successfully achieved
                 this, and the website you are currently viewing is built with
-                the magic of React! The challenge I am currently working on is
-                to build a MERN stack project - in other words, a full-stack
-                project built with MongoDB, Express, React and Node.
+                the magic of React! 
+                <br/>
+                <br/>
+                <h5>MERN stack</h5>
+                So, by now I had used React in a project, and used MongoDB, Express and Node.js in another project, but the next challenge was to build a project that contained all these technologies together - this would be an example of the popular <span className="bold">MERN stack</span>. Integrating all these technologies together can get very complex, so to start with, as an exercise, I set out to build as minimal a MERN stack project as possible, but one which still had full CRUD capabilities (ie the capability for users to create, read, update and delete content), with the idea that such a minimal project could be used as a foundation/ template for more ambitious projects. This <a
+                  href="https://ui-stevs-guestbook.herokuapp.com"
+                  className="articleLink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Guestbook
+                </a> was the result.
               </p>
+              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </Col>
         </Row>

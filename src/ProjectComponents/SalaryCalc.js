@@ -72,7 +72,7 @@ function SalaryCalc() {
         <br />
         <p>
           This project uses an algorithm that takes a user's annual
-          gross salary as an input, and outputs:
+          gross salary as an input, and outputs:</p>
           <div
             className="articleLink"
             onClick={() => {
@@ -82,7 +82,7 @@ function SalaryCalc() {
             <p>{linkName}</p>
           </div>
           {readMore && extraContent}
-        </p>
+        
       
     </div>
   );

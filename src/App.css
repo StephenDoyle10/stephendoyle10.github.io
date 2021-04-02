@@ -179,9 +179,9 @@ ul {
 }
 
 .logos1 {
-  margin: 10px 20px 10px 20px;
-  height: 70px;
-  width: auto;
+  margin: 10px 20px 0px 20px;
+  height: auto;
+  width: 300px;
   display: inline;
 }
 

@@ -19,6 +19,7 @@ import MERNSetUp2 from "./ArticlesComponents/MERNSetUp2";
 import MERNSetUp3 from "./ArticlesComponents/MERNSetUp3";
 import MERNSetUp4 from "./ArticlesComponents/MERNSetUp4";
 import GraphQL from "./ArticlesComponents/GraphQL";
+import MernToHeroku from "./ArticlesComponents/MernToHeroku";
 import { Route, Switch } from 'react-router-dom';
 
 const App=()=>{
@@ -44,6 +45,7 @@ const App=()=>{
           <Route path="/mernsetup3" component={MERNSetUp3}/>
           <Route path="/mernsetup4" component={MERNSetUp4}/>
           <Route path="/graphql" component={GraphQL}/>
+          <Route path="/merntoheroku" component={MernToHeroku}/>
 
           <Route path="/notes" component={Notes}/>
 

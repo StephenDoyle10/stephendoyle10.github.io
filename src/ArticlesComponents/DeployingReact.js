@@ -66,16 +66,17 @@ class DeployingReact extends React.Component {
 
         <h4>Finished!</h4>
         <p>If you go to your repository page now on GitHub, and go to settings, you should see a green box with info telling you where your project has been published online.</p>
+        <br/>
 
-        <h2>Making changes and updating your project</h2>
+        <h4>Making changes and updating your project</h4>
         <p>So the above steps are how to deploy your lovely new react app to the internet using GitHub. But of course, you'll be making changes to your app over time, and improving it. How should you update your changes?</p>
-        <p>On your GitHub repository for your react project there are two branches, the 'gh-pages' branch, and the 'master' branch. The 'master' branch is the same as the code you write on your IDE on your computer/ The 'gh-pages' branch is where this original code has been bundled, using Webpack, for optimal performance in production. Your app is deployed from here.</p>
+        <p>On your GitHub repository for your react project there are two branches, the 'gh-pages' branch, and the 'master' branch. The 'master' branch is the same as the code you write on your IDE on your computer, while the 'gh-pages' branch is where this original code has been bundled, using Webpack, for optimal performance in production. Your app is deployed from here.</p>
         <p>When you make changes to your code in your IDE to the locally stored files, these changes have to be updated to both the master branch and the gh-pages branch on your remote GitHub repository. To update the 'gh-pages' branch, type 'npm run deploy' in the terminal. The 'gh-pages' branch has now updated, and as the deployed app that you see online comes from here, these updates are also reflected in the app as you see it online.</p>
         <p>HOWEVER, the master branch on GitHub has not been updated. To do this you must type the following three commands into the terminal:</p>
         <p>git add .</p>
         <p>git commit -m "commit message"</p>
         <p>git push -u origin master</p>
-        <p>After following these steps, the updated code as it exists on your computer should be identical to the code on the master branch of your GitHub repo, while on the 'GH-pages' branch there will be a bundled build of these updates, and so your deployed app online will have the nexessary updates.</p>
+        <p>After following these steps, the updated code as it exists on your computer should be identical to the code on the master branch of your GitHub repo, while on the 'GH-pages' branch there will be a bundled build of these updates, and so your deployed app online will have the necessary updates.</p>
       
         
 

@@ -317,9 +317,10 @@ class Resources extends React.Component {
                 <span className="bookTitle">The New New Thing: A Silicon Valley Story</span> by Michael Lewis (First published 1999)
               </p>
               <p>
-                Michael Lewis is known for his entertaining and idiosyncratic takes on different subjects, that often get adapted into films - for example, Moneyball, the Blind Side, and the Big Short. This is his take on Silicon Valley, and in particular the author gets access to eccentric tech innovator and billionaire James Clark, who becomes the main focus of this book.
+                Michael Lewis is known for his entertaining and idiosyncratic takes on different subjects, that often get adapted into films - for example, Moneyball, the Blind Side, and the Big Short. This is his take on Silicon Valley, and in particular the author gets access to eccentric tech innovator and billionaire James Clark, who is the main focus of this book. After some odd passages in the opening chapters about sailing and flying a helicopter, the book eventually gets very riveting.
               </p>
               <br />
+              
               <br />
               <h3 className="subheading">Entertainment:</h3>
               <h4 className="subheading">TV:</h4>
@@ -338,6 +339,10 @@ class Resources extends React.Component {
               <h4 className="subheading">Movies:</h4>
               <p className="mediaName">Jobs (2013)</p>
               <p>Very entertaining biopic about Steve Jobs, that centres on three key periods in his life, and in particular around some of his historic presentations. I don't know how accurate this is regarding characterisations of Steve Jobs and other key Apple players, but it is very watchable and fast-paced, and touches on a lot of techical details about Apple that will keep programmers particularly enthralled.</p>
+              <br/>
+              <h4 className="subheading">Documentaries:</h4>
+              <p className="mediaName">Code Rush (2000)</p>
+              <p>For those who only started using the internet after 2000, you may not remember or know much about Netscape, which was one of the first internet browsers, and reigned supreme in the 1990s...that is, until Microsoft launched Internet Explorer. In this documentary, filmakers get to follow Netscape staff for year in 1999 (a time when Netscape's star is on the wane). Surprisingly entertaining.</p>
 
               
               <br />

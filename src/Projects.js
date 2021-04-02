@@ -7,6 +7,7 @@ import Calculator from "./ProjectComponents/Calculator";
 import SalaryCalc from "./ProjectComponents/SalaryCalc";
 import CheatSheet from "./ProjectComponents/CheatSheet";
 import PortfolioWebsite from "./ProjectComponents/PortfolioWebsite";
+import MernBasic from "./ProjectComponents/MERN_basic";
 
 class Projects extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class Projects extends React.Component {
               <h2 className="subheading">Projects</h2>
               <br />
               <h3 className="subheading">Full-stack:</h3>
+              <MernBasic />
               <Boarpp />
               <br />
               <h3 className="subheading">Front-end:</h3>

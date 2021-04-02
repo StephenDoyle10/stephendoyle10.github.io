@@ -14,6 +14,7 @@ import node from "./images/nodejs.svg";
 import mongodb from "./images/mongodb.svg";
 import git from "./images/git.svg";
 import react from "./images/react3.svg";
+import mern from "./images/mern2.png";
 
 class Home extends React.Component {
   render() {
@@ -26,12 +27,13 @@ class Home extends React.Component {
               <h1>Developer</h1>
             </div>
             <div className="images">
-              <img className="logos1" src={react} alt="React" />
-              <img className="logos1" src={node} alt="Node.js" />
+             {/* <img className="logos1" src={react} alt="React" />
+              <img className="logos1" src={node} alt="Node.js" /> */}
+              <img className="logos1" src={mern} alt="MERN" />
               <br />
-              <br />
+              
 
-              <img className="logos2" src={mongodb} alt="MongoDB" />
+              {/*<img className="logos2" src={mongodb} alt="MongoDB" />*/}
 
               <br />
               <img className="logos2" src={npm} alt="NPM" />
