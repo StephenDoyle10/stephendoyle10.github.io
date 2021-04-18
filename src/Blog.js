@@ -20,6 +20,16 @@ class Blog extends React.Component {
 
 
 
+                <Link as={Link} to="/gitcommands">
+                    <div className="articleTeaser" >
+                <h5 >
+                <div className="plainP">Popular Git Commands</div> - <span className="publishedDate">06 April 2021</span></h5>
+                <br/>
+                <p className="articleTeaserText">This article goes through some of the most popular and important Git commands, such as cloning repos, creating separate branches, connecting local code to a remote repo, initialising git, commiting and pushing...<br/><br/>[read more]</p>
+                </div>
+                </Link>
+
+
                 <Link as={Link} to="/merntoheroku">
                     <div className="articleTeaser" >
                 <h5 >

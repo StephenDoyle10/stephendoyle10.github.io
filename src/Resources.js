@@ -320,6 +320,19 @@ class Resources extends React.Component {
                 Michael Lewis is known for his entertaining and idiosyncratic takes on different subjects, that often get adapted into films - for example, Moneyball, the Blind Side, and the Big Short. This is his take on Silicon Valley, and in particular the author gets access to eccentric tech innovator and billionaire James Clark, who is the main focus of this book. After some odd passages in the opening chapters about sailing and flying a helicopter, the book eventually gets very riveting.
               </p>
               <br />
+              <p className="mediaName">
+                <span className="bookTitle">How the Internet Happened: From Netscape to the iPhone</span> by Brian McCullough (First published 2018)
+              </p>
+              <p>
+                Take a trip down memory-lane and relive in entertaining detail how the internet developed from the 1990s up to the introduction of the iPhone. The book covers how household names like Netscape, Yahoo, Amazon, Google, and Netflix were born and grew to become such behemoths in the tech world.
+              </p>
+              <br />
+              <p className="mediaName">
+                <span className="bookTitle">Coders at Work: Reflections on the Craft of Programming</span> by Peter Seibel (First published 2009)
+              </p>
+              <p>
+                This book contains 16 detailed and candid interviews with seminal programmers, including Brendan Eich (who created JavaScript), Douglas Crockford (who created JSON) and Ken Thompson (co-inventor of UNIX).
+              </p>
               
               <br />
               <h3 className="subheading">Entertainment:</h3>

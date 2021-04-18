@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2a138804.chunk.css",
-    "main.js": "/static/js/main.0f5bfca4.chunk.js",
-    "main.js.map": "/static/js/main.0f5bfca4.chunk.js.map",
+    "main.js": "/static/js/main.e77042fe.chunk.js",
+    "main.js.map": "/static/js/main.e77042fe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1a7fe081.js",
     "runtime-main.js.map": "/static/js/runtime-main.1a7fe081.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
@@ -22,11 +22,9 @@
     "static/media/html-5.821ba738.svg": "/static/media/html-5.821ba738.svg",
     "static/media/javascript-4.13ceb963.svg": "/static/media/javascript-4.13ceb963.svg",
     "static/media/mern2.5488f6d4.png": "/static/media/mern2.5488f6d4.png",
-    "static/media/mongodb.d89a6eeb.svg": "/static/media/mongodb.d89a6eeb.svg",
     "static/media/mountain.78aa20c7.png": "/static/media/mountain.78aa20c7.png",
-    "static/media/nodejs.52cbf9a8.svg": "/static/media/nodejs.52cbf9a8.svg",
+    "static/media/newJob.8d9616ec.png": "/static/media/newJob.8d9616ec.png",
     "static/media/npm.5066c092.svg": "/static/media/npm.5066c092.svg",
-    "static/media/react3.f1484e29.svg": "/static/media/react3.f1484e29.svg",
     "static/media/sass.8aa78a83.svg": "/static/media/sass.8aa78a83.svg"
   },
   "entrypoints": [
@@ -34,6 +32,6 @@
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.714ec815.chunk.js",
     "static/css/main.2a138804.chunk.css",
-    "static/js/main.0f5bfca4.chunk.js"
+    "static/js/main.e77042fe.chunk.js"
   ]
 }

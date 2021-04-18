@@ -10,10 +10,7 @@ import javascript from "./images/javascript-4.svg";
 import bootstrap from "./images/bootstrap-4.svg";
 import sass from "./images/sass.svg";
 import npm from "./images/npm.svg";
-import node from "./images/nodejs.svg";
-import mongodb from "./images/mongodb.svg";
 import git from "./images/git.svg";
-import react from "./images/react3.svg";
 import mern from "./images/mern2.png";
 
 class Home extends React.Component {

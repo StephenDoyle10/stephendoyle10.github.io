@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import meme1 from "./images/memes/MachineLearning.jpeg";
 import meme2 from "./images/memes/EwWelJGWEAAR56k.jpeg";
 import meme3 from "./images/memes/mountain.png";
+import meme4 from "./images/memes/newJob.png";
 
 class Contact extends React.Component {
   render() {
@@ -47,6 +48,18 @@ class Contact extends React.Component {
                 <a
                   className="articleLink"
                   href="https://www.reddit.com/r/ProgrammerHumor/comments/bx0czx/entering_the_programming_via_frontend_way/?utm_source=amp&utm_medium=&utm_content=comments_view_all"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                  Source
+                </a>
+              </div>
+              <img className="memes" src={meme4} alt="Time for a new job" />
+              <div className="sourceContainer">
+                <a
+                  className="articleLink"
+                  href="https://old.reddit.com/r/ProgrammerHumor/comments/mnsel7/well_bout_time_for_me_to_be_hittin_the_ol_dusty/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
