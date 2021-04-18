@@ -214,7 +214,7 @@ ul {
 @media (min-width: 990px) {
   .memes{
     width:75%;
-    margin:10px auto 20px;
+    margin:100px auto 20px;
     display:block;
   }
 }
