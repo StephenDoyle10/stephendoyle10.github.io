@@ -19,7 +19,7 @@ class GitCommands extends React.Component {
               <br/>
               <h3 className="subheading">{articleName}</h3>
               <br/>
-              <p className="publishedDate">20 April 2021</p>
+              <p className="publishedDate">06 April 2021</p>
               <p>This article goes through some of the most popular and important Git commands.</p>
               <p>First, if you working with team, often code will be stored remotely so that all team members can access it. A popular place to store such code is GitHub, althought there are many other options. At some point you may have to get the project code from the remote repo (eg code on GitHub) and onto your local machine (eg on your laptop). To do this, you must clone the project code from the remote. This can be done with the following command:</p>
               <pre><code>git clone &lt;URL of repo&gt;</code></pre>

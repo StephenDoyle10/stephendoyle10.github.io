@@ -8,6 +8,7 @@ import SalaryCalc from "./ProjectComponents/SalaryCalc";
 import CheatSheet from "./ProjectComponents/CheatSheet";
 import PortfolioWebsite from "./ProjectComponents/PortfolioWebsite";
 import MernBasic from "./ProjectComponents/MERN_basic";
+import Lyrics from "./ProjectComponents/Lyrics";
 
 class Projects extends React.Component {
   render() {
@@ -18,15 +19,18 @@ class Projects extends React.Component {
             <div className="bodyContent" id="projects">
               <h2 className="subheading">Projects</h2>
               <br />
+              <p>Here is a list of all the web apps I have built so far, starting with the most recent (and thus the most advanced), and finishing with my early forays into basic front-end html/css/js implementations. All of them can be visited online.</p>
               <h3 className="subheading">Full-stack:</h3>
+              <Lyrics/>
               <MernBasic />
               <Boarpp />
               <br />
               <h3 className="subheading">Front-end:</h3>
-              <Calculator />
+              <PortfolioWebsite />
               <CheatSheet />
               <SalaryCalc />
-              <PortfolioWebsite />
+              <Calculator />
+              
             </div>
           </Col>
         </Row>

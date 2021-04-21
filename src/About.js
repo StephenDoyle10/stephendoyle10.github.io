@@ -26,7 +26,6 @@ class About extends React.Component {
               <li>{'\u2022'} Express</li>
               <li>{'\u2022'} NPM</li>
               <li>{'\u2022'} TypeScript</li>
-              <li>{'\u2022'} AWS</li>
               <li>{'\u2022'} HTML</li>
               <li>{'\u2022'} CSS</li>
               <li>{'\u2022'} SASS</li>

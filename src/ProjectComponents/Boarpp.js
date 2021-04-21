@@ -43,14 +43,14 @@ function Boarpp() {
         <br />
         The application includes the following features:
         <br />
-        -ability to register an account, and sign in and out
+        - ability to register an account, and sign in and out
         <br />
-        -a feed page which lists all previous posts (sorted by most recent)
+        - a feed page which lists all previous posts (sorted by most recent)
         <br />
-        -ability to create a new blog post, with option to upload a picture,
+        - ability to create a new blog post, with option to upload a picture,
         which then gets added to the feed
         <br />
-        -a search function in which a user can search previous posts for a
+        - a search function in which a user can search previous posts for a
         keyword
       </p>
     </div>

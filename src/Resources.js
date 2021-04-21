@@ -324,7 +324,7 @@ class Resources extends React.Component {
                 <span className="bookTitle">How the Internet Happened: From Netscape to the iPhone</span> by Brian McCullough (First published 2018)
               </p>
               <p>
-                Take a trip down memory-lane and relive in entertaining detail how the internet developed from the 1990s up to the introduction of the iPhone. The book covers how household names like Netscape, Yahoo, Amazon, Google, and Netflix were born and grew to become such behemoths in the tech world.
+                Take a trip down memory-lane and relive, in entertaining detail, how the internet developed from the 1990s up to the introduction of the iPhone. The book covers how household names like Netscape, Yahoo, Amazon, Google, and Netflix were born and grew to become such behemoths in the tech world. Similar to Walter Isaacson's the Innovators (except this book focuses on web development, whereas the Innovators is more about hardware and software), this book is frequently addictive and unputdownable.
               </p>
               <br />
               <p className="mediaName">
@@ -338,10 +338,10 @@ class Resources extends React.Component {
               <h3 className="subheading">Entertainment:</h3>
               <h4 className="subheading">TV:</h4>
               <p className="mediaName">Silicon Valley (2014-2019) </p>
-              <p>Hilarious sitcom following a tech-start up from humble beginnings to fame and fortune. Full of authentic details about programming, the tech world, and office politics, it's clear they used consultants that know that world inside out. </p>
+              <p>Hilarious satire/sitcom following a tech-start up from humble beginnings to fame and fortune. Full of authentic details about programming, the tech world, and office politics, it's clear they used consultants that know that world inside out. </p>
               <br/>
               <p className="mediaName">Halt and Catch Fire (2014-2017)</p>
-              <p>Imagine Mad Men was set in the 1980s+, instead of the 1960s+, and imagine that instead of being about advertising companies, it instead focused on tech companies trying to make it rich from the PC and internet booms of the 1980s and 1990s. Well, that's Halt and Catch Fire in a nutshell!</p>
+              <p>Imagine Mad Men was set in the 1980s+, instead of the 1960s+, and imagine that instead of being about advertising companies, it instead focused on tech companies trying to make it rich from the PC and internet booms of the 1980s and 1990s. Well, that's Halt and Catch Fire in a nutshell! Quite apart from the technical details in the show, which are a gift for any programmer watching, this has rich and relatable characters that you really come to care about and enjoy spending time with, not to mention jaw-dropping plot twists. Highly recommended.</p>
               <br/>
               <p className="mediaName">Mr Robot (2015-2019)</p>
               <p>Drama about anti-capitalist hackers, that centres around one particular coding genius. Has been praised, among other things, for its accurate portrayal of hacking methods.</p>

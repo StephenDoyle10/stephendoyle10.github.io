@@ -37,6 +37,7 @@ class MernBasic extends React.Component{
           <p>
             For my first MERN (MongoDB, Express, React and Node.js) stack project, I wanted to keep things simple and create as minimal a project as possible, but one that still includes full CRUD capabilities: the ability for a user to create, read, update and delete data. If a user visits the project's website, they can add a greeting message (or a joke, or a favourite quote, or anything they wish), and they can also view, delete and edit messages.
             <br />
+            <br/>
             This project is deliberately very bare bones and does not even contain CSS (much less bootstrap). The idea is that it contains essential code only and can serve as a template for more ambitious projects in future. Deployed on Heroku, and it uses the GraphQL approach to web APIs, rather than REST.
             
           </p>
