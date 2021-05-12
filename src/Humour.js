@@ -6,6 +6,7 @@ import meme1 from "./images/memes/MachineLearning.jpeg";
 import meme2 from "./images/memes/EwWelJGWEAAR56k.jpeg";
 import meme3 from "./images/memes/mountain.png";
 import meme4 from "./images/memes/newJob.png";
+import meme5 from "./images/memes/stackOFCopyPaste.jpeg";
 
 class Contact extends React.Component {
   render() {
@@ -60,6 +61,18 @@ class Contact extends React.Component {
                 <a
                   className="articleLink"
                   href="https://old.reddit.com/r/ProgrammerHumor/comments/mnsel7/well_bout_time_for_me_to_be_hittin_the_ol_dusty/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                  Source
+                </a>
+              </div>
+              <img className="memes" src={meme5} alt="Stack Overflow meme" />
+              <div className="sourceContainer">
+                <a
+                  className="articleLink"
+                  href="https://old.reddit.com/r/ProgrammerHumor/comments/n5gc6c/visualizing_the_codes_i_write/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

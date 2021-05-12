@@ -190,7 +190,27 @@ ul {
   height: 40px;
   width: auto;
   display: inline;
+}
 
+.logos2_1{
+  margin: 10px 8px 10px 8px;
+  height: 60px;
+  width: auto;
+  display: inline;
+}
+
+.logos3{
+  margin: 10px 8px 10px 8px;
+  height: 55px;
+  width: auto;
+  display: inline;
+}
+
+.logos4{
+  margin: 10px 8px 10px 8px;
+  height: 110px;
+  width: auto;
+  display: inline;
 }
 
 .memes{

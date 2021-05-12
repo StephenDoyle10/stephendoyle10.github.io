@@ -275,6 +275,15 @@ class Resources extends React.Component {
               <br />
               <h4 className="subheading">Biography/ history:</h4>
               <br/>
+              
+              
+              <p className="mediaName">
+                <span className="bookTitle">Showstopper! The Breakneck Race to Create Windows NT and the Next Generation at Microsoft</span> by G. Pascal Zachary (First published 1994)
+              </p>
+              <p>
+                This is a very specialist book that chronicles the creation of the first Windows NT operating system in the late 1980s and early 1990s. Despite the author's best attempts to make this a riveting tale, I would say this is really only for people with an interest in the very specific subject matter.
+              </p>
+              <br/>
               <p className="mediaName">
                 <span className="bookTitle">
                   Code: The Hidden Language of Computer Hardware and Software
@@ -290,9 +299,31 @@ class Resources extends React.Component {
               </p>
               <br/>
               <p className="mediaName">
+                <span className="bookTitle">The New New Thing: A Silicon Valley Story</span> by Michael Lewis (First published 1999)
+              </p>
+              <p>
+                Michael Lewis is known for his entertaining and idiosyncratic takes on different subjects, that often get adapted into films - for example, Moneyball, the Blind Side, and the Big Short. This is his take on Silicon Valley, and in particular the author gets access to eccentric tech innovator and billionaire James Clark, who is the main focus of this book. After some odd passages in the opening chapters about sailing and flying a helicopter, the book eventually gets very riveting.
+              </p>
+              <br />
+              <p className="mediaName">
+                <span className="bookTitle">Boo Hoo: A Dot Com Story</span> by Ernst Malmsten, Erik Portanger and Charles Drazin (First published 2001)
+              </p>
+              <p>
+                The dot-com bubble lasted from 1995 to 2001. In that time it seemed unlimited funding was available to new internet start-ups, almost all of whom went on to have outrageously successful IPOs, although the party was soon to come a crashing end. One of the most notable casualties of the bursting of the bubble was boo.com, a company which lasted for just 18 months, yet still managed to burn through $135 million of funding. This is an entertaining biography of the company written by one of its three founders, Ernst Malmsten.
+              </p>
+              <br/>
+              <p className="mediaName">
+                <span className="bookTitle">Coders at Work: Reflections on the Craft of Programming</span> by Peter Seibel (First published 2009)
+              </p>
+              <p>
+                This book contains 16 detailed and candid interviews with seminal programmers, including Brendan Eich (who created JavaScript), Douglas Crockford (who created JSON) and Ken Thompson (co-inventor of UNIX).
+              </p>
+              <br/>
+              <p className="mediaName">
                 <span className="bookTitle">The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution</span> by Walter
                 Isaacson (First published 2014)
               </p>
+              
               <p>
                 Extremely entertaining and unputdownable book focusing on all
                 the eccentric genius' that propelled computer science forward,
@@ -307,32 +338,13 @@ class Resources extends React.Component {
               </p>
               <br/>
               <p className="mediaName">
-                <span className="bookTitle">Showstopper! The Breakneck Race to Create Windows NT and the Next Generation at Microsoft</span> by G. Pascal Zachary (First published 1994)
-              </p>
-              <p>
-                This is a very specialist book that chronicles the creation of the first Windows NT operating system in the late 1980s and early 1990s. Despite the author's best attempts to make this a riveting tale, I would say this is really only for people with an interest in the very specific subject matter.
-              </p>
-              <br/>
-              <p className="mediaName">
-                <span className="bookTitle">The New New Thing: A Silicon Valley Story</span> by Michael Lewis (First published 1999)
-              </p>
-              <p>
-                Michael Lewis is known for his entertaining and idiosyncratic takes on different subjects, that often get adapted into films - for example, Moneyball, the Blind Side, and the Big Short. This is his take on Silicon Valley, and in particular the author gets access to eccentric tech innovator and billionaire James Clark, who is the main focus of this book. After some odd passages in the opening chapters about sailing and flying a helicopter, the book eventually gets very riveting.
-              </p>
-              <br />
-              <p className="mediaName">
                 <span className="bookTitle">How the Internet Happened: From Netscape to the iPhone</span> by Brian McCullough (First published 2018)
               </p>
               <p>
                 Take a trip down memory-lane and relive, in entertaining detail, how the internet developed from the 1990s up to the introduction of the iPhone. The book covers how household names like Netscape, Yahoo, Amazon, Google, and Netflix were born and grew to become such behemoths in the tech world. Similar to Walter Isaacson's the Innovators (except this book focuses on web development, whereas the Innovators is more about hardware and software), this book is frequently addictive and unputdownable.
               </p>
               <br />
-              <p className="mediaName">
-                <span className="bookTitle">Coders at Work: Reflections on the Craft of Programming</span> by Peter Seibel (First published 2009)
-              </p>
-              <p>
-                This book contains 16 detailed and candid interviews with seminal programmers, including Brendan Eich (who created JavaScript), Douglas Crockford (who created JSON) and Ken Thompson (co-inventor of UNIX).
-              </p>
+              
               
               <br />
               <h3 className="subheading">Entertainment:</h3>

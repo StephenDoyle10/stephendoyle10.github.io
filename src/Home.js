@@ -12,6 +12,9 @@ import sass from "./images/sass.svg";
 import npm from "./images/npm.svg";
 import git from "./images/git.svg";
 import mern from "./images/mern2.png";
+import aws from "./images/AWS_logo.png";
+import awsPractitioner from "./images/AWS_Cloud_Prac.png";
+
 
 class Home extends React.Component {
   render() {
@@ -24,23 +27,22 @@ class Home extends React.Component {
               <h1>Developer</h1>
             </div>
             <div className="images">
-             {/* <img className="logos1" src={react} alt="React" />
-              <img className="logos1" src={node} alt="Node.js" /> */}
               <img className="logos1" src={mern} alt="MERN" />
               <br />
               
-
-              {/*<img className="logos2" src={mongodb} alt="MongoDB" />*/}
 
               <br />
               <img className="logos2" src={npm} alt="NPM" />
               <br />
               <img className="logos2" src={git} alt="Git" />
               <br />
-              <img className="logos2" src={html} alt="HTML5" />
-              <img className="logos2" src={css} alt="CSS3" />
-              <img className="logos2" src={javascript} alt="JavaScript" />
+              <img className="logos2_1" src={html} alt="HTML5" />
+              <img className="logos2_1" src={css} alt="CSS3" />
+              <img className="logos2_1" src={javascript} alt="JavaScript" />
               <br />
+              <img className="logos3" src={aws} alt="AWS" />
+              <img className="logos4" src={awsPractitioner} alt="AWS Cloud Practitioner" />
+              <br/>
 
               <img className="logos2" src={bootstrap} alt="Bootstrap" />
               <img className="logos2" src={sass} alt="Sass" />

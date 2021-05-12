@@ -28,6 +28,7 @@ class About extends React.Component {
               <li>{'\u2022'} TypeScript</li>
               <li>{'\u2022'} HTML</li>
               <li>{'\u2022'} CSS</li>
+              <li>{'\u2022'} Amazon Web Services (AWS)</li>
               <li>{'\u2022'} SASS</li>
               <li>{'\u2022'} Bootstrap</li>
               <li>{'\u2022'} Testing with Mocha</li>
@@ -40,6 +41,10 @@ class About extends React.Component {
               <li>{'\u2022'} ESLINT</li>
               
               </ul>
+              <br/>
+              <h5>Certifications</h5>
+              {'\u2022'} AWS Cloud Pactitioner - awarded May 2021
+              <br/>
               <br/>
               <br/>
               <h3>In detail:</h3>
@@ -146,8 +151,11 @@ class About extends React.Component {
                 >
                   Guestbook
                 </a> was the result.
+                <br /> <br />
+                <h5>AWS/ Cloud Computing</h5>
+                After completing my first MERN stack projects I decided on a change of pace. Cloud computing is obviously huge in development, and growing ever more ubiquitous. Key cloud computing concepts are of course relevant across cloud computing companies, whether it be AWS, Microsoft Azure, Google Cloud, or another company. But as AWS is clearly the market leader in this field, I decided to focus my attention on them. I had already used AWS (in particular, S3) in one of my projects (Boarpp) to store user-uploaded images. On learning that there was an official AWS certification that covered all the fundamental concepts of AWS, I decided this would be a great qualification to train for. After a period of intense study, I am happy to report I passed the exam, and I am now a qualified AWS Cloud Practitioner!
               </p>
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              <br/><br/><br/><br/><br/>
             </div>
           </Col>
         </Row>
