@@ -32,22 +32,23 @@ class Home extends React.Component {
               
 
               <br />
-              <img className="logos2" src={npm} alt="NPM" />
-              <br />
-              <img className="logos2" src={git} alt="Git" />
-              <br />
               <img className="logos2_1" src={html} alt="HTML5" />
               <img className="logos2_1" src={css} alt="CSS3" />
               <img className="logos2_1" src={javascript} alt="JavaScript" />
               <br />
+              <img className="logos2" src={npm} alt="NPM" />
+              <br />
+              <img className="logos2" src={git} alt="Git" />
+              <br />
+              
               <img className="logos3" src={aws} alt="AWS" />
               <img className="logos4" src={awsPractitioner} alt="AWS Cloud Practitioner" />
               <br/>
 
-              <img className="logos2" src={bootstrap} alt="Bootstrap" />
-              <img className="logos2" src={sass} alt="Sass" />
+              <img className="logos2_2" src={bootstrap} alt="Bootstrap" />
+              <img className="logos2_2" src={sass} alt="Sass" />
+              <br/><br/><br/>
               {/* coming soon:
-              -aws
               -mocha
               -graphql
               */}
