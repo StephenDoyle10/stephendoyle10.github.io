@@ -21,7 +21,7 @@ class Blog extends React.Component {
 
 
                 <Link as={Link} to="/gitcommands">
-                    <div className="articleTeaser" >
+                    <div className="project" >
                 <h5 >
                 <div className="plainP">Popular Git Commands</div> - <span className="publishedDate">06 April 2021</span></h5>
                 <br/>
@@ -31,7 +31,7 @@ class Blog extends React.Component {
 
 
                 <Link as={Link} to="/merntoheroku">
-                    <div className="articleTeaser" >
+                    <div className="project" >
                 <h5 >
                 <div className="plainP">Deploying a MERN stack project to Heroku</div> - <span className="publishedDate">01 April 2021</span></h5>
                 <br/>
@@ -41,7 +41,7 @@ class Blog extends React.Component {
 
 
                 <Link as={Link} to="/graphql">
-                    <div className="articleTeaser" >
+                    <div className="project" >
                 <h5 >
                 <div className="plainP">Introducing GraphQL</div> - <span className="publishedDate">22 March 2021</span></h5>
                 <br/>
@@ -72,7 +72,7 @@ class Blog extends React.Component {
 
 
                 <Link as={Link} to="/ComponentTypes">
-                    <div className="articleTeaser" >
+                    <div className="project" >
                 <h5 >
                 <div className="plainP">React Component Types</div> - <span className="publishedDate">10 Feb 2021</span></h5>
                 <br/>
@@ -80,7 +80,7 @@ class Blog extends React.Component {
                 </div>
                 </Link>
                 <Link as={Link} to="/enginesandruntime">
-                    <div className="articleTeaser" >
+                    <div className="project" >
                 <h5 >
                 <div className="plainP">Engines and Runtime Environments</div> - <span className="publishedDate">05 Feb 2021</span></h5>
                 <br/>
@@ -88,7 +88,7 @@ class Blog extends React.Component {
                 </div>
                 </Link>
                 <Link as={Link} to="/deployingreact">
-                    <div className="articleTeaser" >
+                    <div className="project" >
                 <h5 >
                 <div className="plainP">Deploying React on GitHub Pages</div> - <span className="publishedDate">27 Jan 2021</span></h5>
                 <br/>
@@ -97,7 +97,7 @@ class Blog extends React.Component {
                 </Link>
                 
                 <Link as={Link} to="/asyncjsarticle">
-                    <div className="articleTeaser" >
+                    <div className="project" >
                 <h5 >
                 <div className="plainP">Asynchronus Javascript</div> - <span className="publishedDate">20 Jan 2021</span></h5>
                 <br/>

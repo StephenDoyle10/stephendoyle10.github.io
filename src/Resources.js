@@ -18,7 +18,8 @@ class Resources extends React.Component {
                 coding journey, and they all get the Stephen Doyle seal of
                 approval!
               </p>
-              <br />
+              
+              <div className="project">
               <h3 className="subheading">Online/ websites:</h3>
               <br />
               <p className="mediaName">freeCodeCamp</p>
@@ -130,7 +131,9 @@ class Resources extends React.Component {
                 feature, as well as a virtual browser window to show how that
                 code looks and words in use.
               </p>
-              <br />
+              </div>
+              <br/>
+              <div className="project">
               <h3 className="subheading">Podcasts:</h3>
               <br />
               <p className="mediaName">CodeNewbie</p>
@@ -153,7 +156,9 @@ class Resources extends React.Component {
                 discussions with experts on hot issues, and interviews with
                 special guests.
               </p>
+              </div>
               <br />
+              <div className="project">
               <h3 className="subheading">Books:</h3>
               <h4 className="subheading">
                 JavaScript Algorithms and Data Structures:
@@ -343,11 +348,12 @@ class Resources extends React.Component {
               <p>
                 Take a trip down memory-lane and relive, in entertaining detail, how the internet developed from the 1990s up to the introduction of the iPhone. The book covers how household names like Netscape, Yahoo, Amazon, Google, and Netflix were born and grew to become such behemoths in the tech world. Similar to Walter Isaacson's the Innovators (except this book focuses on web development, whereas the Innovators is more about hardware and software), this book is frequently addictive and unputdownable.
               </p>
+              </div>
+              
               <br />
               
-              
-              <br />
               <h3 className="subheading">Entertainment:</h3>
+              <div className="project">
               <h4 className="subheading">TV:</h4>
               <p className="mediaName">Silicon Valley (2014-2019) </p>
               <p>Hilarious satire/sitcom following a tech-start up from humble beginnings to fame and fortune. Full of authentic details about programming, the tech world, and office politics, it's clear they used consultants that know that world inside out. </p>
@@ -360,14 +366,19 @@ class Resources extends React.Component {
               <br/>
               <p className="mediaName">Devs (2020)</p>
               <p>Disturbing Black-Mirror-esque 6-episode miniseries. As the title suggest, this show is about a group of developers working for a sketchy multi-billion dollar tech company. Engrossing show, but due to the far-fetched plot, I doubt many programmers will find much to relate to, as they would in, say, a show like Silicon Valley.</p>
+              </div>
               <br/>
+              <div className="project">
               <h4 className="subheading">Movies:</h4>
               <p className="mediaName">Jobs (2013)</p>
               <p>Very entertaining biopic about Steve Jobs, that centres on three key periods in his life, and in particular around some of his historic presentations. I don't know how accurate this is regarding characterisations of Steve Jobs and other key Apple players, but it is very watchable and fast-paced, and touches on a lot of techical details about Apple that will keep programmers particularly enthralled.</p>
+              </div>
               <br/>
+              <div className="project">
               <h4 className="subheading">Documentaries:</h4>
               <p className="mediaName">Code Rush (2000)</p>
               <p>For those who only started using the internet after 2000, you may not remember or know much about Netscape, which was one of the first internet browsers, and reigned supreme in the 1990s...that is, until Microsoft launched Internet Explorer. In this documentary, filmakers get to follow Netscape staff for year in 1999 (a time when Netscape's star is on the wane). Surprisingly entertaining.</p>
+              </div>
 
               
               <br />

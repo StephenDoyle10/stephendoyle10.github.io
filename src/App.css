@@ -133,6 +133,7 @@ hr {
 
 .project {
   margin: 20px 0 20px 0;
+  border-radius: 4px;
   padding: 10px 10px 10px 10px;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -143,15 +144,6 @@ hr {
 .extra-content{
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.articleTeaser {
-  margin: 20px 0 20px 0;
-  padding: 10px 10px 10px 10px;
- 
-  border: 1px solid #ac3b61;
-  background-color: #f7dfd2;
-  
 }
 
 .projectButton {
