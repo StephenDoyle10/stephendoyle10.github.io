@@ -15,7 +15,7 @@ class Lyrics extends React.Component{
               className="projectButton"
               onClick={() =>
                 window.open(
-                  "http://ui.lyricstoliveby.tk"
+                  "http://www.lyricstoliveby.uk"
                 )
               }
             >

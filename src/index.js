@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter} from 'react-router-dom';
+import { HashRouter} from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ScrollIntoView from './ScrollIntoView';
@@ -9,12 +9,12 @@ import ScrollIntoView from './ScrollIntoView';
 //The purpose of ScrollIntoView is to fix a routing bug in which when you click on a new page, the new page loads but will not automatically start the new page at the top. For example, if you have been on 'resources' page, and are currently viewing the bottom of the page, if you click on 'projects' page, that will reload near the bottom of the page. With ScrollIntoView component, new page auto loads at top. See  for more info.
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <ScrollIntoView>
     <App />
     </ScrollIntoView>
     
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 

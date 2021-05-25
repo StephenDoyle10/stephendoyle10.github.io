@@ -150,7 +150,17 @@ class About extends React.Component {
                   rel="noopener noreferrer"
                 >
                   Guestbook
-                </a> was the result.
+                </a> was the result. Please take a look and add a message!
+                <br/>
+                <br/>
+                Now, a web app featuring CRUD capabilities is pretty useless unless it can authenticate and authorize individual users, which is something my Guestbook app lacked. So the next MERN stack app I created used Google APIs and JSON Web Tokens to authenticate and authorise users. This app also features bootstrap and CSS styling, something else that my basic Guestbook app lacked. The app is called <a
+                  href="http://www.lyricstoliveby.uk"
+                  className="articleLink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lyrics to Live By
+                </a>. Please drop by and post some of your favorite lyrics!
                 <br /> <br />
                 <h5>AWS/ Cloud Computing</h5>
                 After completing my first MERN stack projects I decided on a change of pace. Cloud computing is obviously huge in development, and growing ever more ubiquitous. Key cloud computing concepts are of course relevant across all cloud computing companies, whether it be AWS, Microsoft Azure, Google Cloud, or another company. But as AWS is clearly the market leader in this field, I decided to focus my attention on them. I had already used AWS (in particular, S3) in one of my projects (Boarpp) to store user-uploaded images. On learning that there was an official AWS certification that covered all the fundamental concepts of AWS, I decided this would be a great qualification to train for. After a period of intense study, I am happy to report I passed the exam, and I am now a qualified AWS Cloud Practitioner!
