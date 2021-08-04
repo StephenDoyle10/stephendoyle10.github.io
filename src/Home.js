@@ -24,7 +24,7 @@ class Home extends React.Component {
           <Col md={{ span: 8, offset: 2 }}>
             <div className="title">
               <h1>Stephen Doyle</h1>
-              <h1>Developer</h1>
+              <h1>Web Developer</h1>
             </div>
             <div className="images">
               <img className="logos1" src={mern} alt="MERN" />

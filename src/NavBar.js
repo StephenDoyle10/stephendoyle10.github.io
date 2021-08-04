@@ -34,9 +34,9 @@ function NavBar () {
             <Nav.Link onClick={() => setExpanded(false)} as={Link} className="navbarText" to="/blog">
               Blog
             </Nav.Link>
-            <Nav.Link onClick={() => setExpanded(false)} as={Link} className="navbarText" to="/humour">
+            {/*<Nav.Link onClick={() => setExpanded(false)} as={Link} className="navbarText" to="/humour">
               Humour
-            </Nav.Link>
+    </Nav.Link>*/}
             <Nav.Link onClick={() => setExpanded(false)} as={Link} className="navbarText" to="/resources">
               Resources
             </Nav.Link>

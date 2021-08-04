@@ -19,7 +19,7 @@ class Lyrics extends React.Component{
                 )
               }
             >
-              Visit Lyrics to Live By
+              Visit Website
             </button>
             <button
               className="projectButton"
@@ -35,10 +35,34 @@ class Lyrics extends React.Component{
           <br />
           <br />
           <p>
-          This project builds off the MERN stack <i>Guestbook</i> web app (see below) I previously built. The big advancement here compared to the <i>Guestbook</i>, is that <i>Lyrics to Live By</i> has user authentication and authorization, which of course is vital for any full stack web app that wishes to include user content. In this app, users sign in with their gmail account; thus this app uses Google APIs. For authorization, it uses JSON web tokens.
+          This project is a full-stack web app built using the MERN stack (MongoDB, Express, React and Node.js). The concept is simple: users can sign in (via their gmail account) and create and share posts featuring music lyrics that they are inspired by. The app features full CRUD capabilities - users can Create, Update and Delete their own posts, and read posts of others.<i>Lyrics to Live By</i> has user authentication and authorization, which of course is vital for any full stack web app that wishes to include user-created content. In this app, users sign in with their gmail account; thus this app uses Google APIs. For authorization, it uses JSON web tokens.
           <br/>
           <br/>
-          So what can users on the app actually do? Well, we all know how much certain people love posting pictures of their food online. <i>Lyrics to Live By</i> is the music equivalent to that: I believe music lovers will love posting and sharing lyric snippets online, the same way food lovers love posting pictures of food. What are you waiting for? Visit the site, and add your favourite lyrics for the world to see!
+          <span className="bold">Technologies used:</span>
+          <br />
+        <br />
+        HTML
+        <br />
+        CSS
+        <br />
+        JavaScript
+        <br />
+        Bootstrap
+        <br/>
+        MongoDB
+        <br />
+        Express
+        <br />
+        React
+        <br />
+        Node.js
+        <br />
+        NPM
+        <br />
+        User authentication using gmail/ Google APIs
+        <br/>
+        User authorization using JSON web tokens
+        <br />
           </p>
         </div>
                 

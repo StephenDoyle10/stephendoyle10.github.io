@@ -7,6 +7,10 @@ import meme2 from "./images/memes/EwWelJGWEAAR56k.jpeg";
 import meme3 from "./images/memes/mountain.png";
 import meme4 from "./images/memes/newJob.png";
 import meme5 from "./images/memes/stackOFCopyPaste.jpeg";
+import meme6 from "./images/memes/memeoprah.png";
+import meme7 from "./images/memes/memefivestages.jpeg";
+import meme8 from "./images/memes/memeglyph.jpeg";
+
 
 class Contact extends React.Component {
   render() {
@@ -80,6 +84,47 @@ class Contact extends React.Component {
                   Source
                 </a>
               </div>
+
+              <img className="memes" src={meme6} alt="Stack Overflow meme" />
+              <div className="sourceContainer">
+                <a
+                  className="articleLink"
+                  href="https://old.reddit.com/r/ProgrammerHumor/comments/n64wlh/and_the_hr_keeps_the_best_one/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                  Source
+                </a>
+              </div>
+
+              <img className="memes" src={meme7} alt="Stack Overflow meme" />
+              <div className="sourceContainer">
+                <a
+                  className="articleLink"
+                  href="https://old.reddit.com/r/ProgrammerHumor/comments/nf3z5r/5_key_phases/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                  Source
+                </a>
+              </div>
+
+              <img className="memes" src={meme8} alt="Stack Overflow meme" />
+              <div className="sourceContainer">
+                <a
+                  className="articleLink"
+                  href="https://old.reddit.com/r/ProgrammerHumor/comments/nnri7i/no_comments/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                  Source
+                </a>
+              </div>
+
+
               <br/>
             </div>
           </Col>

@@ -22,7 +22,7 @@ class CheatSheet extends React.Component {
               )
             }
           >
-            Visit Cheat Sheet
+            Visit Website
           </button>
           <button
             className="projectButton"

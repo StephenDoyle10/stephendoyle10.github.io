@@ -122,7 +122,7 @@ hr {
 
 .subheading {
   padding:25px 0 0 0;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -218,8 +218,13 @@ ul {
   display:block;
 }
 
+.contactLogos{
+  width:50px;
+  margin:0 25px 0 0;
+}
+
 .projectButtons {
-  text-align: center;
+  text-align: left;
 }
 
 #moreOne {

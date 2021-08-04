@@ -19,7 +19,7 @@ class Calculator extends React.Component {
                 )
               }
             >
-              Visit Calculator
+              Visit Website
             </button>
             <button
               className="projectButton"

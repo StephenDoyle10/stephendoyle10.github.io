@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
+import github from "./images/github.png";
+import linkedin from "./images/linkedin.png";
 
 class Contact extends React.Component {
   render() {
@@ -15,17 +17,28 @@ class Contact extends React.Component {
               <p>He/him. I can be emailed at:</p>
               <p>stephen.doyle10@yahoo.co.uk</p>
               <br />
-              <p>
+              
                 <a
                   className="articleLink"
                   href="https://github.com/StephenDoyle10"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  Github profile
+                  <img class="contactLogos" src={github}></img>
                 </a>
-              </p>
+                
+                <a
+                  className="articleLink"
+                  href="https://www.linkedin.com/in/stephen-doyle-making-ripples/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                  <img class="contactLogos" src={linkedin}></img>
+                </a>
+                
+              
+              
             </div>
           </Col>
         </Row>

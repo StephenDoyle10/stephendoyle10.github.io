@@ -21,12 +21,14 @@ class Projects extends React.Component {
               <br />
               <p>Here is a list of all the web apps I have built so far, starting with the most recent (and thus the most advanced), and finishing with my early forays into basic front-end html/css/js implementations. All of them can be visited online.<br/>
               <br/>
-              <span className="bold">Please note, if visiting the web pages of 'Lyrics to Live By', or the 'Guestbook', there will be a short delay before they become active. This is because they are hosted on heroku's free plan, which offers great savings, but has the downside that web apps hosted on this plan go to sleep if they go 30 minutes without receiving any web traffic.</span>
+              <span className="bold">Please note, if visiting the website of 'Lyrics to Live By' or 'Boarpp', there may be a short delay before they become active. This is because they are hosted on heroku's free plan, which offers great savings, but has the downside that web apps hosted on this plan go to sleep if they go 30 minutes without receiving any web traffic.</span>
               </p>
               <h3 className="subheading">Full-stack:</h3>
               <Lyrics/>
-              <MernBasic />
               <Boarpp />
+              
+              {/*<MernBasic />*/}
+              
               <br />
               <h3 className="subheading">Front-end:</h3>
               <PortfolioWebsite />

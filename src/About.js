@@ -12,11 +12,11 @@ class About extends React.Component {
             <div className="bodyContent" id="about">
               <h2 className="subheading">About</h2>
               <br />
-              <br />
-              <h3>In brief:</h3>
-              Here are all the technologies that I have hands-on practical experience with:
+              <p>
+              Passionate self-taught web developer obsessed by all things JavaScript, React, NodeJS and the MERN stack.<br/>
+              <br/>Practical hands-on experience of key web development technologies such as:</p>
               <br/>
-              <br/>
+              
               <ul>
               <li>{'\u2022'} JavaScript</li>
               <li>{'\u2022'} MERN Stack</li>
@@ -42,11 +42,13 @@ class About extends React.Component {
               
               </ul>
               <br/>
-              <h5>Certifications</h5>
+              <br/>
+              <h3>Certifications</h3>
               {'\u2022'} AWS Cloud Pactitioner - awarded May 2021
               <br/>
               <br/>
               <br/>
+              {/* 
               <h3>In detail:</h3>
               <br/>
               <p className="quote">'Problems are opportunities in disguise'</p>
@@ -164,7 +166,7 @@ class About extends React.Component {
                 <br /> <br />
                 <h5>AWS/ Cloud Computing</h5>
                 After completing my first MERN stack projects I decided on a change of pace. Cloud computing is obviously huge in development, and growing ever more ubiquitous. Key cloud computing concepts are of course relevant across all cloud computing companies, whether it be AWS, Microsoft Azure, Google Cloud, or another company. But as AWS is clearly the market leader in this field, I decided to focus my attention on them. I had already used AWS (in particular, S3) in one of my projects (Boarpp) to store user-uploaded images. On learning that there was an official AWS certification that covered all the fundamental concepts of AWS, I decided this would be a great qualification to train for. After a period of intense study, I am happy to report I passed the exam, and I am now a qualified AWS Cloud Practitioner!
-              </p>
+              </p>*/}
               <br/><br/><br/><br/><br/>
             </div>
           </Col>

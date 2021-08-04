@@ -19,7 +19,7 @@ class MernBasic extends React.Component{
                 )
               }
             >
-              Visit Guestbook
+              Visit Website
             </button>
             <button
               className="projectButton"

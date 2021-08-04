@@ -21,6 +21,7 @@ import MERNSetUp4 from "./ArticlesComponents/MERNSetUp4";
 import GraphQL from "./ArticlesComponents/GraphQL";
 import GitCommands from "./ArticlesComponents/GitCommands";
 import MernToHeroku from "./ArticlesComponents/MernToHeroku";
+import Asdf from "./Asdf";
 import { Route, Switch } from 'react-router-dom';
 
 const App=()=>{
@@ -34,12 +35,13 @@ const App=()=>{
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/blog" component={Blog} />
-          <Route path="/humour" component={Humour} />
+          {/*<Route path="/humour" component={Humour} />*/}
           <Route path="/resources" component={Resources} />
           <Route path="/contact" component={Contact} />
           <Route path="/asyncjsarticle" component={AsyncJSArticle}/>
           <Route path="/deployingreact" component={DeployingReact}/>
           <Route path="/enginesandruntime" component={EnginesAndRuntime}/>
+
           <Route path="/componenttypes" component={ComponentTypes}/>
           <Route path="/mernsetup1" component={MERNSetUp1}/>
           <Route path="/mernsetup2" component={MERNSetUp2}/>
@@ -48,7 +50,7 @@ const App=()=>{
           <Route path="/graphql" component={GraphQL}/>
           <Route path="/merntoheroku" component={MernToHeroku}/>
           <Route path="/gitcommands" component={GitCommands}/>
-
+          <Route path="/asdf" component={Asdf}/>
           <Route path="/notes" component={Notes}/>
 
 
